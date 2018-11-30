@@ -19,6 +19,10 @@ class App(object):
 
     # 获取内容
     def setUrl(self, url):
+        # headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0'}
+        # req = request.Request(url, headers=headers)
+        # resp = request.urlopen(req).read().decode("utf-8")
+        
         resp = request.urlopen(url).read().decode("gbk")
         self.soup = bs(resp, "html.parser")
         self.getList()

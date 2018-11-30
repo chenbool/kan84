@@ -5,7 +5,6 @@ from urllib import request
 import re
 from time import strftime, time, sleep
 from db import Db
-
 __author__ = 'bool'
 
 class App(object):
@@ -14,7 +13,6 @@ class App(object):
     page = [0, 0]
     prev_page = host
     next_page = host
-
     # init
     def __init__(self):
         pass

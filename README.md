@@ -5,5 +5,5 @@ http://www.kan84.net
 
 ## 演示
 ![1](./demo/1.gif)
-![1](./demo2.gif)
-![1](./sql.png)
+![1](./demo/2.gif)
+![1](./demo/sql.png)
